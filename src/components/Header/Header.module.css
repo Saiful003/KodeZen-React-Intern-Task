@@ -1,0 +1,32 @@
+.headerArea {
+  border: 3px solid #1d1d1d;
+  background-color: #0dd292;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 88px;
+  padding: 0 38px;
+  box-shadow: -7px 7px 0px -3px #1d1d1d;
+  border-radius: 18px;
+}
+
+.headerLeft h2 {
+  font-size: 30px;
+}
+
+.headerRight {
+  display: flex;
+  gap: 13px;
+}
+.headerBtn {
+  background: transparent;
+  padding: 12px 30px;
+  border: 3px solid #1d1d1d;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 7px 7px 0px -3px #1d1d1e;
+  border-radius: 14px;
+}

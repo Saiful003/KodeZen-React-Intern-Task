@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Oswald:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
+}
+aside {
+  height: 100vh;
+  width: 20rem;
+  border: 3px solid #1d1d1d;
+  padding: 150px 10px 0 10px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+main {
+  flex: 1;
+}
+
+.container {
+  width: 98%;
+}
+
+.pageWrapper {
+  display: flex;
+}
+
+.editPropertyWrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.editPropertyText {
+}
+
+.editPropertyButtonGroup {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+.editPropertyIconButton {
+  display: flex;
+  padding: 6px;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+.editPropertyIconButton:hover {
+  background-color: #ebebeb;
+}
+
+.rightAreaWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 15px;
+}
+
+/* Utilities class */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap-5px {
+  gap: 5px;
+}
+input,
+input:focus {
+  outline: none;
+}
+/* Input Range Style */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: #d2d5d9;
+  border-radius: 5px;
+}
+
+/* Input Thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+}
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+}
+
+input[type="range"]::-ms-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+}

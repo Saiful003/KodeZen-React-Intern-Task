@@ -1,0 +1,121 @@
+.editorWrapper {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 15px;
+  box-shadow: -7px 1px 26px -14px rgba(38, 38, 38, 0.75);
+  -webkit-box-shadow: -7px 1px 26px -14px rgba(38, 38, 38, 0.75);
+  -moz-box-shadow: -7px 1px 26px -14px rgba(38, 38, 38, 0.75);
+}
+.editorTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  padding: 15px 12px;
+  position: relative;
+}
+
+.openIndicator {
+  width: 19px;
+  aspect-ratio: 1;
+  position: absolute;
+  right: 11px;
+  top: -8px;
+  background-color: white;
+  transform: rotate(45deg);
+}
+
+.editorBody {
+  padding: 20px 12px;
+}
+
+.editorTopText {
+  font-weight: 500;
+}
+
+.cssPropertyItemWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.editorTopButtonGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.editorTopButton {
+  display: flex;
+  cursor: pointer;
+}
+.cssPropertyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cssPropertyItemName {
+}
+
+.selectBoxWrapper {
+  display: flex;
+  border: 1px solid #e2e2e2;
+  padding: 5px 10px;
+  gap: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  position: relative;
+}
+.selectBoxText {
+}
+
+.selectBoxIcon {
+  display: flex;
+}
+.dropdownItemWrap {
+  position: absolute;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  top: 100%;
+  background-color: white;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.dropdownItemInnerWrap .dropdownItem {
+  padding: 5px;
+  transition: background-color 300ms;
+}
+.dropdownItemInnerWrap .dropdownItem:hover {
+  background-color: #ebebeb;
+}
+
+.unitSelect,
+.unitSelect:focus {
+  border: none;
+  outline: none;
+}
+.inputPropertyItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputGroupWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rangInput {
+  width: 80%;
+}
+.numberInput {
+  height: 20px;
+  flex: 1;
+}

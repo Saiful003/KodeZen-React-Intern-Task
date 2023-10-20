@@ -1,0 +1,30 @@
+.previewAreaWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.previewArea {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.previewHeading {
+  border-top: 3px solid #1d1d1d;
+  border-bottom: 3px solid #1d1d1d;
+  flex: 1;
+  text-align: center;
+  color: #1d1d1e;
+}
+.userGuideText {
+  padding: 15px 15px;
+  background: #0dd292;
+  text-align: center;
+  width: max-content;
+  box-shadow: 8px 8px 0px -3px #1d1d1e;
+  border-radius: 13px;
+  border: 2px solid #1d1d1d;
+  color: white;
+}
