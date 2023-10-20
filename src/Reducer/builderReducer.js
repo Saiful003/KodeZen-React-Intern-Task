@@ -22,11 +22,11 @@ const initialState = {
   editorState: {
     font: { displayName: "", fontFamily: "" },
     fontWeight: { value: "", type: "" },
-    fontSize: { value: 16, unit: "px" },
+    fontSize: { value: 32, unit: "px" },
     fontStyle: "normal",
     textTransform: "none",
     textDecoration: "none",
-    lineHeight: { value: 16, unit: "px" },
+    lineHeight: { value: 32, unit: "px" },
     letterSpacing: { value: 0, unit: "px" },
     wordSpacing: { value: 0, unit: "px" },
   },
